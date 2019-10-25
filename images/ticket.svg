@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="1205 4274.57 461 239.07">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #fff;
+        stroke: rgba(18,18,18,0.15);
+      }
+    </style>
+  </defs>
+  <path id="Subtraction_1" data-name="Subtraction 1" class="cls-1" d="M460,238.07H0V159.386a39.556,39.556,0,0,0,28.271-11.832A40.257,40.257,0,0,0,40,119.035,40.222,40.222,0,0,0,0,78.684V0H460V78.684a39.558,39.558,0,0,0-28.271,11.832A40.407,40.407,0,0,0,460,159.386Z" transform="translate(1205.5 4275.07)"/>
+</svg>
