@@ -6,8 +6,20 @@ h1{
 }
 
 h2 {
-  color: #4B0000;
+  color: #4B0000 !important ;
+  
 }
+
+.header {
+  width: 100%;
+  height: 80px;
+  position: fixed;
+  top: 0;
+  z-index: 500;
+  padding: 15px 0 8px 0;
+  background-color: #4B0000;
+}
+
 
 .home,
 .music,
@@ -30,7 +42,7 @@ h2 {
 }
 
 .history,
-.music,
+
 .performance {
   background-color: #7C546B;
   width: 100%;
@@ -39,15 +51,14 @@ h2 {
   
 }
 
+.artist-large h2{
+	margin-left: 420px;
+}
 
-header {
+.artist-large{
+background-color: #7C546B;
   width: 100%;
-  height: 80px;
-  position: fixed;
-  top: 0;
-  z-index: 500;
-  padding: 15px 0 8px 0;
-  background-color: #4B0000;
+  padding: 100px 0;
 }
 
 .branding {
@@ -123,7 +134,7 @@ nav li a:active {
 
 .artist-large {
   width: 100%;
-  padding: 50px 0;
+  padding: 100px 0;
   float: left;
   background-color: #7C546B;
 }
@@ -163,22 +174,16 @@ nav li a:active {
   float: left;
 }
 
-/* music */
-.music {
-  float: left;
-}
+
 
 /* impact */
 .impact {
   float: left;
-}
-
-.testimonials {
-	width: 40%;
+	width: 100%;
 	padding: 40px 0;
 }
 
-.testimonials img {
+.impact img {
 	width: 150px;
 	margin-bottom: 10px;
 	border-radius: 50%;
@@ -199,7 +204,14 @@ nav li a:active {
 	margin-right: 0;
 }
 
-
+.columns_3 {
+  width: 300px;
+  float: left;
+  margin-right: 20px;  
+}
+.columns_3:last-of-type {
+  margin-right: 0;
+}
 
 
 
@@ -211,6 +223,7 @@ nav li a:active {
 .contact {
 	width: 100%;
 	padding: 100px 0;
+
 	 
 }
 
@@ -223,7 +236,7 @@ nav li a:active {
 	margin-bottom: 25px;
 	padding: 5px 5px 5px 10px;
 	border: 1px solid #dadada;
-	color: #ffffff;
+	color: gray;
 	font-weight: 100;	
 }
 

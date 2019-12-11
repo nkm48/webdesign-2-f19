@@ -7,7 +7,7 @@
 <link rel="stylesheet" href="css/normalize.min.css">
 <link rel="stylesheet" href="css/base.css">
 <link rel="stylesheet" href="css/hugrid.css">
-<link rel="stylesheet" href="css/responsiveslides.css"><link rel="stylesheet" href="./style.css">
+<link rel="stylesheet" href="css/responsiveslides.css"><link rel="stylesheet" href="css/style.css">
 
 </head>
 <body>
@@ -74,8 +74,8 @@
     <h2>History</h2>
     <p><section class="timeline">
   <div class="container">
-  <iframe src='https://cdn.knightlab.com/libs/timeline3/latest/embed/index.html?source=1PGD3Lbf6mfzIxfhLb30GjSY6nMN7Uupf1yBP4_8tpdE&font=Default&lang=en&initial_zoom=2&height=650' width='100%' height='650' webkitallowfullscreen mozallowfullscreen allowfullscreen frameborder='0'></iframe>
-	  <div> </div> </div> <!-- end container -->
+  <iframe src="https://cdn.knightlab.com/libs/timeline3/latest/embed/index.html?source=1PGD3Lbf6mfzIxfhLb30GjSY6nMN7Uupf1yBP4_8tpdE&font=Default&lang=en&initial_zoom=2&height=650" width="100%" height="650" webkitallowfullscreen mozallowfullscreen allowfullscreen frameborder="0"></iframe>
+	  </div> <!-- end container -->
     </section> <!-- end untitled--> </p>
   </div> 
 </section>
@@ -83,8 +83,6 @@
 <section class="gallery" data-scroll-index="3">
   <div class="container">
     <h2>Gallery</h2>
-     <section class="gallery">
- <div class="container">
    <div class="row">
      <div class="columns_3">
        <div class="boxgrid captionfull">
@@ -149,15 +147,10 @@
    
  
 
-<section class="music" data-scroll-index="4">
+<section class="artist-large" data-scroll-index="4">
   <div class="container">
     <h2>Music</h2>
-	  </div>
-	  </section>   <!-- artist-large-->
-      
-      <section class="artist-large">
-  <div class="container">
-    <div class="row">
+	 <div class="row">
       <div class="columns_3">
         <iframe src="https://open.spotify.com/embed/track/6cU4urQRUieTBH08yKHAqj" width="300" height="380" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
     </div>
@@ -168,8 +161,8 @@
       <iframe src="https://open.spotify.com/embed/track/6SdnOecNGBzDgAvNVjJ59w" width="300" height="380" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>  
     </div>
     </div>
-		  </div>
-	  <div> </div><!-- end container -->
+		  </div><!-- end container -->
+	  
     
     </section> <!-- artist-small--> 
   
@@ -179,26 +172,41 @@
 <section class="impact" data-scroll-index="5">
   <div class="container">
     <h2>Impact</h2>
-     <section class="testimonials">
-	<div class="container">
-	<h2 class="section-head"></h2>
-		<p class="section-copy"></p>
-		<div class="row">
-			<div class="columns_4">
-				<img src="images/stevie%20wonder.jpg" alt="Stevie Wonder">
+    <div class="row">
+			<div class="columns_3">
+				<img src="images/Stevie_Wonder_Impact.jpg" alt="Stevie Wonder">
+			</div> <!--- end columns_4 -->
+			<div class="columns_3">
+				<img src="images/Ed_Sheeran_Impact.jpg" alt="Ed Sheeran">
+		</div><!--- end columns_4 -->
+			<div class="columns_3">
+				<img src="images/Kendrick_Lamar_Impact.jpg" alt="Kendrick Lamar">
+		</div> <!--- end columns_4 -->
+	  </div>
+	  <div class="row">
+		<div class="columns_3">
 				<h5 class="name">Stevie Wonder</h5>
-				<p class="name">&#8220;Charlie Parker was my inspiration on why I make music and still is to this day.&#8221; </p>
+		  </div> <!-- end columns_3 -->
+		  <div class="columns_3">
+		  <h5 class="name">Ed Sheeran</h5>
+	  </div> 
+		  <div class="columns_3">
+			   <h5 class="name">Kendrick Lamar</h5>
+		  </div> <!-- end columns_3 -->
+	  </div>
+	  
+	  <div class="row">
+		  <div class="columns_3">
+		  <p class="name">&#8220;Charlie Parker was my inspiration on why I make music and still is to this day.&#8221; </p>
+		  </div> <!-- end column_4 -->
+		  
+			<div class="columns_3">
 				
-			</div> <!-- end column_4 -->
-			<div class="columns_4">
-				<img src="images/ed-sheeran.jpg" alt="Ed Sheeran">
-				<h5 class="name">Ed Sheeran</h5>
 				<p class="name">&#8220;When I was listening to music while I was growing up Charlie Parker was one of the few Jazz artists I’d always love to hear.&#8221; </p>
 				
 			</div> <!-- end column_4 -->
-			<div class="columns_4">
-				<img src="images/kendrick.png" alt="Kendrick Lamar">
-				<h5 class="name">Kendrick Lamar</h5>
+			<div class="columns_3">
+				
 				<p class="name">&#8220;Listening to Charlie Parkers music helped inspire me to have these certain sounds in my songs. &#8221; </p>
 		
 			</div>		
@@ -206,8 +214,7 @@
 	</div> <!-- end container -->
 	</section>	   
     
-  </div> 
-</section>
+ 
   
 <section class="performance" data-scroll-index="6">
   <div class="container">
@@ -234,25 +241,28 @@
     <h2>Contact</h2>
 			<form action="gd_web_form.php" method="post" class="contact-form">
       
+				
       <div class="row">  
       <div class="columns_2">
 			<input id="name" type="text" name="name" placeholder="First Name">
         </div>
-	    </div>
-      
+	    
+		  
       <div class="row">  
       <div class="columns_1">
 			<input id="email" type="text" name="email" placeholder="Last Name">
         </div>
-        </div> <!-- end row -->
-      <div class="row">  
+        </div> <!-- end row -->		
+      
+       
 		  <div class="columns_2">  
-        <input id="email" type="text" name="email" placeholder="Email Address">
+        <input id="email Address" type="text" name="email" placeholder="Email Address">
 				<textarea id="message" name="message" placeholder="Comments"></textarea>
 			<input type="Sign Up" name="Sign Up" class="button" value="Sign Up">
+			</div>
+			</div>	
 			</form>
 		</div>
-		</div>	
             </section>
        
 
