@@ -61,8 +61,8 @@ background-color: #7C546B;
   padding: 100px 0;
 }
 
-.branding {
-  background: url("/images/title.svg")no-repeat;
+ .branding {
+  background: url("../images/title.svg");
   width: 250px;
   height: 100px;
   float: center;
@@ -70,7 +70,7 @@ background-color: #7C546B;
 }
 
 .branding a:link {
-  color: #56627a;
+  color: #fff;
   text-decoration: none;
 }
 
