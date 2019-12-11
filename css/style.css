@@ -188,6 +188,8 @@ nav li a:active {
 	margin-bottom: 10px;
 	border-radius: 50%;
 	margin-left: 80px;
+	transform: rotate(360deg);
+	
 }
 
 .name {
