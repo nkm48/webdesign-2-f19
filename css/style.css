@@ -235,6 +235,8 @@ nav li a:active {
   color: rgba(255, 210, 128, 0.733);
   background: rgb(73, 14, 14);
   padding: 1px, 1px;
+  width: 20%;
+  margin-right: 300px;
 }
 
 
@@ -250,6 +252,8 @@ nav li a:active {
 	color: gray;
 	font-weight: 100;	
 }
+
+
 /*
 .contact-form textarea {
 	height: 200px; 
@@ -298,10 +302,11 @@ footer a:active {
 .copyright {
 	width: 100%;
 	color: #ffffff;	
+  
 }
 
 .copyright p {
-	margin-bottom: 0;
+	margin-bottom: 10;
 }
 
 
