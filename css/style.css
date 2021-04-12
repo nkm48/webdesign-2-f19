@@ -263,6 +263,9 @@ nav li a:active {
 
 .contact-form textarea {
 	height: 200px;
+  float: left;
+  margin-left: 570px;
+  
 }
 
 
